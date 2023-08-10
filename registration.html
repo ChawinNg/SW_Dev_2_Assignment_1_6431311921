@@ -5,15 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manga Expo 2023 | ลงทะเบียน</title>
+    <link rel="stylesheet" href="registration_style.css">
 </head>
 <body>
     <h1>ข้อมูลการลงทะเบียน</h1>
     <label for="bname">ชื่อบริษัท:</label>
-    <input type="text" id="bname" name="bname"><br><br>
+        <input type="text" id="bname" name="bname"><br><br>
     <label for="size">เลือกขนาดบูธ:</label>
-    <select name="size" id="size">
-        <option value="small">10x10</option>
-        <option value="big">10x15</option>
-    </select>
+        <select name="size" id="size">
+            <option value="small">10x10</option>
+            <option value="big">10x15</option>
+        </select>
+    <br><br>
+    <label for="table">ต้องการโต๊ะหรือไม่:</label>
+        ต้องการ<input type="checkbox" id="table"> ไม่ต้องการ<input type="checkbox" id="table"><br><br>
+    <label for="cnum">จำนวนเก้าอี้:</label>
+        <input type="number" id="cnum" name="cnum"><br><br>
+    <label for="pname">ชื่อผู้ติดต่อ:</label>
+        <input type="text" id="pname" name="pname"><br><br>
+    <label for="phone">เบอร์ผู้ติดต่อ:</label>
+        <input type="text" id="phone" name="phone"><br><br>
+    <a href="finish.html">
+        <button id="finish">ยืนยันข้อมูล</button>
+    </a>
 </body>
 </html>
