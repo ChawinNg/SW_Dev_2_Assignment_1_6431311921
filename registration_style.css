@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap');
+
 body {
     background-image: url('mgbg.avif');
     background-repeat: no-repeat ;
@@ -6,6 +8,8 @@ body {
 }
 
 .reg {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+
     margin: 0;
     position: absolute;
     top: 50%;
@@ -21,6 +25,8 @@ body {
 }
 
 #finish {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    
     background-color: #ffe1c1;
     border: none;
     color: black;
