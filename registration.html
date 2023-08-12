@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="registration_style.css">
 </head>
 <body>
-    <div class="reg">
+    <form class="reg" id="reg" name="reg" action="finish.html">
         <h1>ข้อมูลการลงทะเบียน</h1>
         <label for="bname">ชื่อบริษัท:</label>
             <input type="text" id="bname" name="bname"><br><br>
         <label for="size">เลือกขนาดบูธ:</label>
-            <select name="size" id="size">
+            <select name="size" id="size" required>
                 <option value="none">-</option>
                 <option value="small">10x10</option>
                 <option value="big">10x15</option>
@@ -27,9 +27,7 @@
             <input type="text" id="pname" name="pname"><br><br>
         <label for="phone">เบอร์ผู้ติดต่อ:</label>
             <input type="text" id="phone" name="phone"><br><br>
-        <a href="finish.html">
-            <button id="finish">ยืนยันข้อมูล</button>
-        </a>
-    </div>
+        <input type="submit" value="ยืนยัน" id="finish">
+    </form>
 </body>
 </html>
